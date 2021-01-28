@@ -1,0 +1,85 @@
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "FuturaCom-Book";
+  src:url("fonts/FuturaCom-Book.ttf");
+  src:url("fonts/FuturaCom-Book.ttf?#iefix") format("embedded-opentype"),
+    url("fonts/FuturaCom-Book.ttf") format("truetype"),
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1";
+  content: attr(data-icon);
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.icon-ipod:before {
+  content: "a";
+}
+
+.icon-rocket:before {
+  content: "b";
+}
+
+.icon-baidu:before {
+  content: "c";
+}
+
+.icon-fontawesome-webfont:before {
+  content: "d";
+}
+
+.icon-fontawesome-webfont-1:before {
+  content: "e";
+}
+
+.icon-fontawesome-webfont-2:before {
+  content: "f";
+}
+
+.icon-fontawesome-webfont-3:before {
+  content: "g";
+}
+
+.icon-fontawesome-webfont-4:before {
+  content: "h";
+}
+
+.icon-fontawesome-webfont-5:before {
+  content: "i";
+}
+
+.icon-fontawesome-webfont-6:before {
+  content: "j";
+}
+
+.icon-fontawesome-webfont-7:before {
+  content: "k";
+}
+
+.icon-fontawesome-webfont-8:before {
+  content: "l";
+}
+
+.icon-fontawesome-webfont-9:before {
+  content: "m";
+}
+
